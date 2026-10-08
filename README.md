@@ -1,6 +1,6 @@
-# StreamKu — Website Portofolio
+# Media Asia — Website Portofolio
 
-Website portofolio untuk **StreamKu**, penyedia solusi web streaming (OTT/VOD, live streaming, aplikasi mobile & Smart TV, white-label solution).
+Website portofolio untuk **Media Asia**, penyedia solusi web streaming (OTT/VOD, live streaming, aplikasi mobile & Smart TV, white-label solution).
 
 ## Struktur
 
@@ -19,7 +19,7 @@ Buka `index.html` langsung di browser, atau aktifkan **GitHub Pages**:
 
 1. Buka repo ini di GitHub → **Settings** → **Pages**
 2. Source: **Deploy from a branch** → branch `main`, folder `/ (root)` → **Save**
-3. Website akan live di `https://<username>.github.io/streamku-portfolio/`
+3. Website akan live di `https://<username>.github.io/media-asia/`
 
 ## Kustomisasi
 
@@ -27,4 +27,4 @@ Buka `index.html` langsung di browser, atau aktifkan **GitHub Pages**:
 - Warna utama bisa diubah lewat CSS variables di `:root` pada `css/style.css`
 - Form kontak saat ini demo (tidak mengirim ke server) — hubungkan ke backend/Formspree sesuai kebutuhan
 
-Dibuat dengan ❤️ oleh StreamKu — 2026
+Dibuat dengan ❤️ oleh Media Asia — 2026
