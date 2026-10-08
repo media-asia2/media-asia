@@ -3,356 +3,302 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Media Asia — Penyedia Solusi Web Streaming</title>
-  <meta name="description" content="Media Asia membangun platform streaming video, OTT, dan live streaming yang cepat, stabil, dan siap scale untuk brand kamu." />
+  <title>Media Asia — Studio Pengembangan Web Streaming</title>
+  <meta name="description" content="Media Asia merancang dan membangun platform streaming video, OTT, dan siaran langsung yang stabil dan siap scale untuk brand Indonesia." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <!-- ===== NAVBAR ===== -->
+
+  <!-- ===== NAV ===== -->
   <header class="navbar" id="navbar">
-    <div class="container nav-inner">
-      <a href="#beranda" class="logo">
-        <span class="logo-play">▶</span>
-        Media<span class="logo-accent"> Asia</span>
-      </a>
+    <div class="wrap nav-inner">
+      <a href="#beranda" class="brand"><span class="brand-mark"></span>Media Asia</a>
       <nav class="nav-links" id="navLinks">
         <a href="#layanan">Layanan</a>
         <a href="#portofolio">Portofolio</a>
         <a href="#proses">Proses</a>
         <a href="#harga">Harga</a>
-        <a href="#testimoni">Testimoni</a>
-        <a href="#kontak" class="btn btn-primary btn-sm">Mulai Proyek</a>
+        <a href="#kontak" class="btn btn-dark btn-sm">Mulai Proyek</a>
       </nav>
       <button class="nav-toggle" id="navToggle" aria-label="Buka menu">☰</button>
     </div>
   </header>
 
-  <!-- ===== HERO ===== -->
-  <section class="hero" id="beranda">
-    <div class="hero-bg"></div>
-    <div class="container hero-inner">
-      <div class="hero-text reveal">
-        <span class="badge"><span class="live-dot"></span> Dipercaya 120+ brand di Indonesia</span>
-        <h1>Bangun Platform <span class="gradient-text">Streaming</span> Impianmu</h1>
-        <p>Kami merancang dan membangun website & aplikasi streaming video — dari OTT, live streaming, sampai video-on-demand — yang cepat, stabil, dan siap scale jutaan penonton.</p>
-        <div class="hero-cta">
-          <a href="#kontak" class="btn btn-primary">Konsultasi Gratis</a>
-          <a href="#portofolio" class="btn btn-outline">Lihat Portofolio</a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat"><strong data-count="120">0</strong><span>+ Proyek Selesai</span></div>
-          <div class="stat"><strong data-count="8">0</strong><span>Tahun Pengalaman</span></div>
-          <div class="stat"><strong><span data-count="99">0</span>.9%</strong><span>Uptime Server</span></div>
-          <div class="stat"><strong><span data-count="2">0</span>M+</strong><span>Penonton Terlayani</span></div>
-        </div>
-      </div>
-      <div class="hero-visual reveal">
-        <div class="player-card">
-          <div class="player-screen">
-            <div class="player-thumb thumb-1"></div>
-            <button class="play-btn" aria-label="Putar">▶</button>
-            <span class="live-badge">● LIVE</span>
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="beranda">
+      <div class="wrap hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="tick"></span>Studio streaming — Jakarta, Indonesia</p>
+          <h1>Kami membangun <em>platform streaming</em> yang ditonton jutaan orang.</h1>
+          <p class="lead">Media Asia merancang dan mengembangkan website streaming video, OTT, dan siaran langsung — dari konsep sampai tayang, dengan standar engineering yang serius.</p>
+          <div class="hero-cta">
+            <a href="#kontak" class="btn btn-dark">Diskusikan proyekmu</a>
+            <a href="#portofolio" class="text-link">Lihat portofolio <span aria-hidden="true">→</span></a>
           </div>
-          <div class="player-bar">
-            <div class="progress"><div class="progress-fill"></div></div>
-            <div class="player-meta">
-              <span>Konser Virtual — Live 4K</span>
-              <span>128K menonton</span>
-            </div>
+          <dl class="hero-meta">
+            <div><dt><span data-count="120">0</span>+</dt><dd>Proyek selesai</dd></div>
+            <div><dt><span data-count="99">0</span>,9%</dt><dd>Uptime server</dd></div>
+            <div><dt><span data-count="8">0</span> thn</dt><dd>Pengalaman</dd></div>
+          </dl>
+        </div>
+        <figure class="hero-figure reveal">
+          <div class="frame">
+            <span class="frame-live"><span class="dot"></span>Live</span>
+            <button class="play-btn" aria-label="Putar showreel">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+            </button>
+          </div>
+          <figcaption><strong>KonserVerse</strong> — siaran langsung 4K, 80 ribu penonton serentak, nol buffering.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===== TICKER ===== -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>OTT / VOD <i>✦</i> Siaran Langsung <i>✦</i> Smart TV <i>✦</i> CDN &amp; Delivery <i>✦</i> White-Label <i>✦</i> Analitik <i>✦</i> Monetisasi <i>✦</i>&nbsp;</span>
+        <span>OTT / VOD <i>✦</i> Siaran Langsung <i>✦</i> Smart TV <i>✦</i> CDN &amp; Delivery <i>✦</i> White-Label <i>✦</i> Analitik <i>✦</i> Monetisasi <i>✦</i>&nbsp;</span>
+      </div>
+    </div>
+
+    <!-- ===== LAYANAN ===== -->
+    <section class="section" id="layanan">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <p class="eyebrow"><span class="tick"></span>01 — Layanan</p>
+          <h2>Apa yang kami kerjakan</h2>
+          <p class="sec-sub">Satu tim untuk seluruh kebutuhan streaming — desain, engineering, infrastruktur, sampai maintenance.</p>
+        </div>
+        <div class="svc-list">
+          <article class="svc reveal">
+            <span class="svc-num">01</span>
+            <div><h3>Platform OTT / VOD</h3><p>Website streaming film, serial, dan kursus on-demand — lengkap dengan payment gateway, DRM, dan multi-profile.</p></div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="4" width="20" height="13" rx="2"/><path d="M10 8.5v4l3.5-2z" fill="currentColor" stroke="none"/><path d="M8 21h8M12 17v4"/></svg>
+          </article>
+          <article class="svc reveal">
+            <span class="svc-num">02</span>
+            <div><h3>Siaran Langsung</h3><p>Infrastruktur live streaming latensi rendah untuk konser, webinar, e-sports, dan kajian — stabil di puluhan ribu penonton.</p></div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/><path d="M7.5 7.5a6.4 6.4 0 0 0 0 9M16.5 7.5a6.4 6.4 0 0 1 0 9M4.9 4.9a10 10 0 0 0 0 14.2M19.1 4.9a10 10 0 0 1 0 14.2"/></svg>
+          </article>
+          <article class="svc reveal">
+            <span class="svc-num">03</span>
+            <div><h3>Aplikasi Mobile &amp; Smart TV</h3><p>Aplikasi Android, iOS, Android TV, dan Smart TV dengan pengalaman menonton yang konsisten di semua layar.</p></div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="7" y="2.5" width="10" height="19" rx="2.5"/><path d="M11 18.5h2"/><rect x="2" y="7" width="4" height="10" rx="1"/></svg>
+          </article>
+          <article class="svc reveal">
+            <span class="svc-num">04</span>
+            <div><h3>CDN &amp; Video Delivery</h3><p>Distribusi video via CDN global, adaptive bitrate (HLS/DASH), dan transcoding otomatis ke berbagai kualitas.</p></div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><ellipse cx="12" cy="6" rx="7" ry="2.6"/><path d="M5 6v6c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6V6"/><path d="M5 12v6c0 1.4 3.1 2.6 7 2.6s7-1.2 7-2.6v-6"/></svg>
+          </article>
+          <article class="svc reveal">
+            <span class="svc-num">05</span>
+            <div><h3>White-Label Solution</h3><p>Platform streaming siap pakai dengan brand kamu sendiri — tayang dalam hitungan minggu, bukan bulan.</p></div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3.5 3.5h7l11 11-7 7-11-11z"/><circle cx="8.5" cy="8.5" r="1.6" fill="currentColor" stroke="none"/></svg>
+          </article>
+          <article class="svc reveal">
+            <span class="svc-num">06</span>
+            <div><h3>Analitik &amp; Monetisasi</h3><p>Dashboard penonton real-time, integrasi iklan (AVOD), langganan (SVOD), dan bayar-per-tayang (TVOD).</p></div>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 20V10M10 20V4M16 20v-7M21 20H3"/></svg>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PORTOFOLIO ===== -->
+    <section class="section section-tint" id="portofolio">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <p class="eyebrow"><span class="tick"></span>02 — Portofolio</p>
+          <h2>Proyek pilihan</h2>
+          <p class="sec-sub">Sebagian karya yang sudah tayang dan dipakai ribuan sampai jutaan penonton.</p>
+        </div>
+        <div class="work-grid">
+          <article class="work reveal">
+            <div class="work-thumb w1"><span class="work-idx">01</span><span class="work-tag">OTT</span></div>
+            <div class="work-body"><h3>NontonBareng.id</h3><p>Platform film independen dengan 500 ribu+ pelanggan dan fitur watch party.</p><p class="work-tags">Web App · DRM · SVOD</p></div>
+          </article>
+          <article class="work reveal">
+            <div class="work-thumb w2"><span class="work-idx">02</span><span class="work-tag">Live</span></div>
+            <div class="work-body"><h3>KonserVerse</h3><p>Siaran konser virtual 4K dengan 80 ribu penonton serentak tanpa buffering.</p><p class="work-tags">Low-latency · 4K · Ticketing</p></div>
+          </article>
+          <article class="work reveal">
+            <div class="work-thumb w3"><span class="work-idx">03</span><span class="work-tag">Edukasi</span></div>
+            <div class="work-body"><h3>KelasPintar Live</h3><p>Platform kursus dengan kelas live interaktif, kuis real-time, dan sertifikat.</p><p class="work-tags">VOD · Interaktif · Mobile</p></div>
+          </article>
+          <article class="work reveal">
+            <div class="work-thumb w4"><span class="work-idx">04</span><span class="work-tag">E-Sports</span></div>
+            <div class="work-body"><h3>ArenaGG TV</h3><p>Portal streaming turnamen e-sports dengan multi-angle camera dan live chat.</p><p class="work-tags">Live · Chat · Smart TV</p></div>
+          </article>
+          <article class="work reveal">
+            <div class="work-thumb w5"><span class="work-idx">05</span><span class="work-tag">Korporat</span></div>
+            <div class="work-body"><h3>TownHall Pro</h3><p>Solusi town hall dan webinar internal perusahaan dengan keamanan enterprise.</p><p class="work-tags">Private · SSO · Analitik</p></div>
+          </article>
+          <article class="work reveal">
+            <div class="work-thumb w6"><span class="work-idx">06</span><span class="work-tag">Komunitas</span></div>
+            <div class="work-body"><h3>IbadahHub</h3><p>Streaming multi-kamera untuk 300+ rumah ibadah di seluruh Indonesia.</p><p class="work-tags">Multi-cam · Donasi · Arsip</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROSES ===== -->
+    <section class="section" id="proses">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <p class="eyebrow"><span class="tick"></span>03 — Proses</p>
+          <h2>Cara kami bekerja</h2>
+        </div>
+        <div class="steps">
+          <div class="step reveal"><span class="step-num">1.</span><h3>Diskusi</h3><p>Kita gali kebutuhan, target penonton, dan model bisnismu lewat konsultasi gratis.</p></div>
+          <div class="step reveal"><span class="step-num">2.</span><h3>Desain</h3><p>UI/UX dirancang khusus untuk pengalaman menonton, kamu review via prototipe interaktif.</p></div>
+          <div class="step reveal"><span class="step-num">3.</span><h3>Development</h3><p>Platform dan infrastruktur dibangun dengan update progres mingguan yang transparan.</p></div>
+          <div class="step reveal"><span class="step-num">4.</span><h3>Tayang</h3><p>Go-live didampingi penuh, plus maintenance dan optimasi berkelanjutan.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== HARGA ===== -->
+    <section class="section section-tint" id="harga">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <p class="eyebrow"><span class="tick"></span>04 — Harga</p>
+          <h2>Investasi yang transparan</h2>
+          <p class="sec-sub">Tanpa biaya tersembunyi. Semua paket termasuk konsultasi dan support.</p>
+        </div>
+        <div class="plans">
+          <div class="plan reveal">
+            <h3>Starter</h3>
+            <p class="plan-price">Rp 15<span> jt</span></p>
+            <p class="plan-desc">Untuk kreator dan komunitas kecil.</p>
+            <ul><li>Website streaming responsif</li><li>Hingga 100 jam konten VOD</li><li>Live streaming HD (720p)</li><li>Payment gateway lokal</li><li>Support 3 bulan</li></ul>
+            <a href="#kontak" class="btn btn-outline">Pilih Starter</a>
+          </div>
+          <div class="plan plan-featured reveal">
+            <p class="plan-flag">Paling dipilih</p>
+            <h3>Bisnis</h3>
+            <p class="plan-price">Rp 45<span> jt</span></p>
+            <p class="plan-desc">Untuk brand dan media yang mau scale.</p>
+            <ul><li>Semua fitur Starter</li><li>Konten VOD tanpa batas</li><li>Live Full HD + 4K</li><li>Aplikasi Android &amp; iOS</li><li>DRM &amp; proteksi konten</li><li>Dashboard analitik lengkap</li><li>Support 12 bulan</li></ul>
+            <a href="#kontak" class="btn btn-light">Pilih Bisnis</a>
+          </div>
+          <div class="plan reveal">
+            <h3>Enterprise</h3>
+            <p class="plan-price">Custom</p>
+            <p class="plan-desc">Solusi khusus skala korporat.</p>
+            <ul><li>Semua fitur Bisnis</li><li>Infrastruktur dedicated</li><li>Smart TV &amp; white-label</li><li>SLA uptime 99,99%</li><li>Tim support prioritas</li></ul>
+            <a href="#kontak" class="btn btn-outline">Hubungi kami</a>
           </div>
         </div>
-        <div class="float-card fc-1">⚡ <div><strong>0.8s</strong><span>startup time</span></div></div>
-        <div class="float-card fc-2">🌍 <div><strong>40+</strong><span>edge location</span></div></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== LAYANAN ===== -->
-  <section class="section" id="layanan">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-tag">Layanan Kami</span>
-        <h2>Satu Tim untuk Semua Kebutuhan Streaming</h2>
-        <p>Dari ide sampai launching — kami handle desain, development, infrastruktur, dan maintenance.</p>
-      </div>
-      <div class="grid-3">
-        <div class="card reveal">
-          <div class="card-icon">🎬</div>
-          <h3>Platform OTT / VOD</h3>
-          <p>Website streaming film, series, dan kursus on-demand lengkap dengan payment gateway, DRM, dan multi-profile seperti Netflix.</p>
+    <!-- ===== TESTIMONI ===== -->
+    <section class="section section-dark" id="testimoni">
+      <div class="wrap">
+        <div class="sec-head reveal">
+          <p class="eyebrow eyebrow-light"><span class="tick"></span>05 — Testimoni</p>
+          <h2>Kata klien kami</h2>
         </div>
-        <div class="card reveal">
-          <div class="card-icon">📡</div>
-          <h3>Live Streaming</h3>
-          <p>Infrastruktur live streaming low-latency untuk konser, webinar, e-sports, dan ibadah online — stabil di puluhan ribu penonton.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">📱</div>
-          <h3>Aplikasi Mobile & Smart TV</h3>
-          <p>Aplikasi Android, iOS, Android TV, dan Smart TV dengan pengalaman nonton yang mulus di semua perangkat.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">🚀</div>
-          <h3>CDN & Video Delivery</h3>
-          <p>Optimasi delivery video dengan CDN global, adaptive bitrate (HLS/DASH), dan transcoding otomatis ke berbagai kualitas.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">🏷️</div>
-          <h3>White-Label Solution</h3>
-          <p>Platform streaming siap pakai dengan brand kamu sendiri — launching dalam hitungan minggu, bukan bulan.</p>
-        </div>
-        <div class="card reveal">
-          <div class="card-icon">📊</div>
-          <h3>Analitik & Monetisasi</h3>
-          <p>Dashboard analitik penonton real-time, integrasi iklan (AVOD), langganan (SVOD), dan pay-per-view (TVOD).</p>
+        <div class="quotes">
+          <blockquote class="reveal">
+            <p>“Platform kami menangani 80 ribu penonton live tanpa satu pun keluhan buffering. Tim Media Asia luar biasa responsif saat event berlangsung.”</p>
+            <footer><strong>Rizky Adrian</strong><span>CEO, KonserVerse</span></footer>
+          </blockquote>
+          <blockquote class="reveal">
+            <p>“Dari nol sampai tayang cuma enam minggu. Dashboard analitiknya membantu kami mengambil keputusan konten setiap hari.”</p>
+            <footer><strong>Sarah Maheswari</strong><span>Founder, NontonBareng.id</span></footer>
+          </blockquote>
+          <blockquote class="reveal">
+            <p>“Fitur kelas live interaktifnya menaikkan engagement murid tiga kali lipat. Investasi terbaik untuk platform edukasi kami.”</p>
+            <footer><strong>Daniel Prayoga</strong><span>CTO, KelasPintar</span></footer>
+          </blockquote>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== PORTOFOLIO ===== -->
-  <section class="section section-alt" id="portofolio">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-tag">Portofolio</span>
-        <h2>Proyek yang Sudah Kami Luncurkan</h2>
-        <p>Sebagian karya terbaik kami untuk klien dari berbagai industri.</p>
-      </div>
-      <div class="grid-3">
-        <div class="card project reveal">
-          <div class="project-thumb thumb-1"><span class="project-tag">OTT</span></div>
-          <h3>NontonBareng.id</h3>
-          <p>Platform film independen Indonesia dengan 500K+ subscriber dan fitur watch party.</p>
-          <div class="project-tags"><span>Web App</span><span>DRM</span><span>SVOD</span></div>
+    <!-- ===== FAQ ===== -->
+    <section class="section" id="faq">
+      <div class="wrap wrap-narrow">
+        <div class="sec-head reveal">
+          <p class="eyebrow"><span class="tick"></span>06 — FAQ</p>
+          <h2>Sering ditanyakan</h2>
         </div>
-        <div class="card project reveal">
-          <div class="project-thumb thumb-2"><span class="project-tag">Live</span></div>
-          <h3>KonserVerse</h3>
-          <p>Live streaming konser virtual 4K dengan 80K penonton serentak tanpa buffering.</p>
-          <div class="project-tags"><span>Low-latency</span><span>4K</span><span>Ticketing</span></div>
-        </div>
-        <div class="card project reveal">
-          <div class="project-thumb thumb-3"><span class="project-tag">Edukasi</span></div>
-          <h3>KelasPintar Live</h3>
-          <p>Platform kursus online dengan live class interaktif, kuis real-time, dan sertifikat.</p>
-          <div class="project-tags"><span>VOD</span><span>Interaktif</span><span>Mobile</span></div>
-        </div>
-        <div class="card project reveal">
-          <div class="project-thumb thumb-4"><span class="project-tag">E-Sports</span></div>
-          <h3>ArenaGG TV</h3>
-          <p>Portal streaming turnamen e-sports dengan multi-angle camera dan live chat.</p>
-          <div class="project-tags"><span>Live</span><span>Chat</span><span>Smart TV</span></div>
-        </div>
-        <div class="card project reveal">
-          <div class="project-thumb thumb-5"><span class="project-tag">Korporat</span></div>
-          <h3>TownHall Pro</h3>
-          <p>Solusi town hall & webinar internal perusahaan dengan keamanan enterprise.</p>
-          <div class="project-tags"><span>Private</span><span>SSO</span><span>Analitik</span></div>
-        </div>
-        <div class="card project reveal">
-          <div class="project-thumb thumb-6"><span class="project-tag">Ibadah</span></div>
-          <h3>IbadahHub</h3>
-          <p>Streaming ibadah multi-kamera untuk 300+ gereja & masjid di seluruh Indonesia.</p>
-          <div class="project-tags"><span>Multi-cam</span><span>Donasi</span><span>Arsip</span></div>
+        <div class="faq reveal">
+          <div class="faq-item">
+            <button class="faq-q">Berapa lama waktu pengerjaannya? <span>+</span></button>
+            <div class="faq-a"><p>Website VOD standar 4–6 minggu, platform OTT lengkap dengan aplikasi mobile 8–12 minggu. White-label solution bisa tayang dalam 2–3 minggu.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Apakah konten video saya aman dari pembajakan? <span>+</span></button>
+            <div class="faq-a"><p>Ya. Kami menerapkan DRM (Widevine &amp; FairPlay), enkripsi HLS, watermark dinamis, dan pembatasan domain — standar yang dipakai platform besar.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Bisakah menangani penonton dalam jumlah besar? <span>+</span></button>
+            <div class="faq-a"><p>Bisa. Arsitektur kami memakai CDN global dengan auto-scaling — teruji menangani 80 ribu+ penonton live serentak.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Bisakah saya kelola konten sendiri setelah jadi? <span>+</span></button>
+            <div class="faq-a"><p>Tentu. Kamu dapat CMS yang mudah dipakai untuk upload video, mengatur jadwal live, mengelola user, dan melihat laporan.</p></div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-q">Bagaimana sistem pembayarannya? <span>+</span></button>
+            <div class="faq-a"><p>Kami mengintegrasikan payment gateway lokal (transfer bank, e-wallet, QRIS, kartu kredit) dengan model langganan, pay-per-view, maupun gratis beriklan.</p></div>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== PROSES ===== -->
-  <section class="section" id="proses">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-tag">Cara Kerja</span>
-        <h2>Dari Ide Sampai Tayang dalam 4 Langkah</h2>
-      </div>
-      <div class="steps">
-        <div class="step reveal"><div class="step-num">1</div><h3>Diskusi & Riset</h3><p>Kita gali kebutuhan, target penonton, dan model bisnis kamu lewat sesi konsultasi gratis.</p></div>
-        <div class="step reveal"><div class="step-num">2</div><h3>Desain & Prototipe</h3><p>UI/UX dirancang khusus untuk pengalaman nonton, lalu kamu review lewat prototipe interaktif.</p></div>
-        <div class="step reveal"><div class="step-num">3</div><h3>Development</h3><p>Tim kami bangun platform + infrastruktur streaming dengan update progres mingguan yang transparan.</p></div>
-        <div class="step reveal"><div class="step-num">4</div><h3>Launching & Support</h3><p>Go-live didampingi penuh, plus maintenance dan optimasi berkelanjutan setelah rilis.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== HARGA ===== -->
-  <section class="section section-alt" id="harga">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-tag">Harga</span>
-        <h2>Paket Sesuai Skala Bisnismu</h2>
-        <p>Harga transparan, tanpa biaya tersembunyi. Semua paket termasuk konsultasi & support.</p>
-      </div>
-      <div class="grid-3 pricing">
-        <div class="card price-card reveal">
-          <h3>Starter</h3>
-          <div class="price">Rp 15<span>jt</span></div>
-          <p class="price-desc">Cocok untuk kreator & komunitas kecil.</p>
-          <ul>
-            <li>✓ Website streaming responsif</li>
-            <li>✓ Hingga 100 jam konten VOD</li>
-            <li>✓ Live streaming HD (720p)</li>
-            <li>✓ Payment gateway lokal</li>
-            <li>✓ Support 3 bulan</li>
-          </ul>
-          <a href="#kontak" class="btn btn-outline btn-block">Pilih Starter</a>
-        </div>
-        <div class="card price-card featured reveal">
-          <span class="featured-badge">Paling Populer</span>
-          <h3>Bisnis</h3>
-          <div class="price">Rp 45<span>jt</span></div>
-          <p class="price-desc">Untuk brand & media yang mau scale.</p>
-          <ul>
-            <li>✓ Semua fitur Starter</li>
-            <li>✓ Konten VOD tanpa batas</li>
-            <li>✓ Live streaming Full HD + 4K</li>
-            <li>✓ Aplikasi Android & iOS</li>
-            <li>✓ DRM & proteksi konten</li>
-            <li>✓ Dashboard analitik lengkap</li>
-            <li>✓ Support 12 bulan</li>
-          </ul>
-          <a href="#kontak" class="btn btn-primary btn-block">Pilih Bisnis</a>
-        </div>
-        <div class="card price-card reveal">
-          <h3>Enterprise</h3>
-          <div class="price">Custom</div>
-          <p class="price-desc">Solusi khusus skala korporat.</p>
-          <ul>
-            <li>✓ Semua fitur Bisnis</li>
-            <li>✓ Infrastruktur dedicated</li>
-            <li>✓ Smart TV & white-label</li>
-            <li>✓ SLA 99.99% uptime</li>
-            <li>✓ Tim support prioritas</li>
-          </ul>
-          <a href="#kontak" class="btn btn-outline btn-block">Hubungi Kami</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== TESTIMONI ===== -->
-  <section class="section" id="testimoni">
-    <div class="container">
-      <div class="section-head reveal">
-        <span class="section-tag">Testimoni</span>
-        <h2>Kata Mereka tentang Media Asia</h2>
-      </div>
-      <div class="grid-3">
-        <div class="card testi reveal">
-          <div class="stars">★★★★★</div>
-          <p>"Platform kami handle 80 ribu penonton live tanpa satu pun keluhan buffering. Tim Media Asia luar biasa responsif saat event berlangsung."</p>
-          <div class="testi-user"><div class="avatar a1">RA</div><div><strong>Rizky Adrian</strong><span>CEO KonserVerse</span></div></div>
-        </div>
-        <div class="card testi reveal">
-          <div class="stars">★★★★★</div>
-          <p>"Dari nol sampai launching cuma 6 minggu. Desainnya modern, dashboard analitiknya ngebantu banget buat ambil keputusan konten."</p>
-          <div class="testi-user"><div class="avatar a2">SM</div><div><strong>Sarah Maheswari</strong><span>Founder NontonBareng.id</span></div></div>
-        </div>
-        <div class="card testi reveal">
-          <div class="stars">★★★★★</div>
-          <p>"Fitur live class interaktifnya bikin engagement murid naik 3x lipat. Investasi terbaik yang pernah kami lakukan untuk platform edukasi."</p>
-          <div class="testi-user"><div class="avatar a3">DP</div><div><strong>Daniel Prayoga</strong><span>CTO KelasPintar</span></div></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FAQ ===== -->
-  <section class="section section-alt" id="faq">
-    <div class="container narrow">
-      <div class="section-head reveal">
-        <span class="section-tag">FAQ</span>
-        <h2>Pertanyaan yang Sering Ditanyakan</h2>
-      </div>
-      <div class="faq reveal">
-        <div class="faq-item">
-          <button class="faq-q">Berapa lama waktu pengerjaan website streaming? <span>+</span></button>
-          <div class="faq-a"><p>Tergantung kompleksitas. Website VOD standar 4–6 minggu, platform OTT lengkap dengan aplikasi mobile 8–12 minggu. White-label solution bisa launching dalam 2–3 minggu.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">Apakah konten video saya aman dari pembajakan? <span>+</span></button>
-          <div class="faq-a"><p>Ya. Kami menerapkan DRM (Widevine & FairPlay), enkripsi HLS, watermarking dinamis, dan pembatasan domain — standar yang dipakai platform besar.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">Bisakah handle penonton dalam jumlah besar sekaligus? <span>+</span></button>
-          <div class="faq-a"><p>Bisa. Arsitektur kami memakai CDN global dengan auto-scaling — sudah teruji menangani 80K+ penonton live serentak tanpa buffering.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">Apakah saya bisa kelola konten sendiri setelah jadi? <span>+</span></button>
-          <div class="faq-a"><p>Tentu. Kamu dapat CMS yang mudah dipakai untuk upload video, atur jadwal live, kelola user, dan lihat laporan — tanpa perlu bisa coding.</p></div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-q">Bagaimana sistem pembayarannya? <span>+</span></button>
-          <div class="faq-a"><p>Kami integrasikan payment gateway lokal (transfer bank, e-wallet, QRIS, kartu kredit) dan mendukung model langganan, pay-per-view, maupun gratis beriklan.</p></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== KONTAK ===== -->
-  <section class="section" id="kontak">
-    <div class="container">
-      <div class="contact-wrap reveal">
-        <div class="contact-info">
-          <span class="section-tag">Kontak</span>
-          <h2>Siap Bangun Platform Streamingmu?</h2>
-          <p>Ceritakan idemu — konsultasi pertama gratis, tanpa komitmen.</p>
+    <!-- ===== KONTAK ===== -->
+    <section class="section section-tint" id="kontak">
+      <div class="wrap contact-grid">
+        <div class="reveal">
+          <p class="eyebrow"><span class="tick"></span>07 — Kontak</p>
+          <h2>Punya ide streaming? Mari wujudkan.</h2>
+          <p class="sec-sub">Ceritakan idemu — konsultasi pertama gratis, tanpa komitmen.</p>
           <ul class="contact-list">
-            <li>📧 <a href="mailto:halo@media-asia.eu.org">halo@media-asia.eu.org</a></li>
-            <li>📱 <a href="https://wa.me/6281234567890">+62 812-3456-7890</a></li>
-            <li>📍 Jakarta Selatan, Indonesia</li>
-            <li>🕘 Senin–Jumat, 09.00–18.00 WIB</li>
+            <li><span>Email</span><a href="mailto:halo@media-asia.eu.org">halo@media-asia.eu.org</a></li>
+            <li><span>WhatsApp</span><a href="https://wa.me/6281234567890">+62 812-3456-7890</a></li>
+            <li><span>Studio</span>Jakarta Selatan, Indonesia</li>
+            <li><span>Jam kerja</span>Senin–Jumat, 09.00–18.00 WIB</li>
           </ul>
         </div>
-        <form class="contact-form" id="contactForm">
-          <input type="text" name="nama" placeholder="Nama kamu" required />
-          <input type="email" name="email" placeholder="Email" required />
-          <input type="text" name="perusahaan" placeholder="Nama perusahaan / brand (opsional)" />
-          <select name="kebutuhan" required>
-            <option value="" disabled selected>Kebutuhan proyek...</option>
-            <option>Platform OTT / VOD</option>
-            <option>Live Streaming</option>
-            <option>Aplikasi Mobile / Smart TV</option>
-            <option>White-Label Solution</option>
-            <option>Lainnya</option>
-          </select>
-          <textarea name="pesan" rows="4" placeholder="Ceritakan proyek impianmu..." required></textarea>
-          <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+        <form class="contact-form reveal" id="contactForm">
+          <label>Nama<input type="text" name="nama" placeholder="Nama kamu" required /></label>
+          <label>Email<input type="email" name="email" placeholder="nama@email.com" required /></label>
+          <label>Kebutuhan
+            <select name="kebutuhan" required>
+              <option value="" disabled selected>Pilih kebutuhan proyek…</option>
+              <option>Platform OTT / VOD</option>
+              <option>Siaran langsung</option>
+              <option>Aplikasi mobile / Smart TV</option>
+              <option>White-label solution</option>
+              <option>Lainnya</option>
+            </select>
+          </label>
+          <label>Ceritakan proyekmu<textarea name="pesan" rows="4" placeholder="Contoh: saya ingin membuat platform kursus online dengan live class…" required></textarea></label>
+          <button type="submit" class="btn btn-dark btn-block">Kirim pesan</button>
           <p class="form-note" id="formNote"></p>
         </form>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <!-- ===== FOOTER ===== -->
   <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <a href="#beranda" class="logo"><span class="logo-play">▶</span> Media<span class="logo-accent"> Asia</span></a>
-        <p>Penyedia solusi web streaming terpercaya sejak 2018. Kami bantu brand Indonesia tayang ke jutaan layar.</p>
+    <div class="wrap">
+      <p class="footer-word">Media Asia</p>
+      <div class="footer-grid">
+        <p class="footer-desc">Studio pengembangan web streaming. Membantu brand Indonesia tayang ke jutaan layar sejak 2018.</p>
+        <nav class="footer-nav">
+          <div><h4>Layanan</h4><a href="#layanan">Platform OTT</a><a href="#layanan">Siaran langsung</a><a href="#layanan">Aplikasi mobile</a><a href="#layanan">White-label</a></div>
+          <div><h4>Studio</h4><a href="#portofolio">Portofolio</a><a href="#harga">Harga</a><a href="#testimoni">Testimoni</a><a href="#kontak">Kontak</a></div>
+        </nav>
       </div>
-      <div class="footer-links">
-        <div>
-          <h4>Layanan</h4>
-          <a href="#layanan">Platform OTT</a>
-          <a href="#layanan">Live Streaming</a>
-          <a href="#layanan">Aplikasi Mobile</a>
-          <a href="#layanan">White-Label</a>
-        </div>
-        <div>
-          <h4>Perusahaan</h4>
-          <a href="#portofolio">Portofolio</a>
-          <a href="#harga">Harga</a>
-          <a href="#testimoni">Testimoni</a>
-          <a href="#kontak">Kontak</a>
-        </div>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <p>© 2026 Media Asia. Seluruh hak cipta dilindungi.</p>
+      <div class="footer-bottom"><p>© 2026 Media Asia</p><p>Jakarta, Indonesia</p></div>
     </div>
   </footer>
 
