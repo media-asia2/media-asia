@@ -1,4 +1,4 @@
-// ===== StreamKu interactions =====
+// ===== Media Asia interactions =====
 (function () {
   'use strict';
 
